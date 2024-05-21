@@ -1,0 +1,50 @@
+.weatherDataconainer {
+    display: flex;
+
+}
+
+.mainPart {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.rightPart {
+    width: 30%;
+}
+
+.weatherItem {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.cityName {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.weatherNavBarList {
+
+}
+
+.weatherNavBarItem {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-right: 30px;
+    display: inline-block;
+
+}
+
+.weatherNavBarItemInner {
+    display: block;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.weatherItemElem {
+    margin-right: 10px;
+}

@@ -1,0 +1,11 @@
+.header {
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 30px;
+}
+.cityInput {
+    width: 300px;
+}
