@@ -10,10 +10,6 @@ const Header = (props) => {
     }
 
     const getWeatherData = async (e) => {
-
-        e.preventDefault();
-
-        props.getWeatherDataThunkCreator()
         try {
             const weatherURL = `https://api.openweathermap.org/data/2.5/weather?q=${props.inputText}&units=imperial&appid=${API_KEY}`
             const forecastURL = `https://api.openweathermap.org/data/2.5/forecast?q=${props.inputText}&units=imperial&appid=${API_KEY}`
